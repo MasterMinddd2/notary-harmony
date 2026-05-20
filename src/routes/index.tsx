@@ -26,7 +26,7 @@ const reviews = [
     text: "Serdecznie polecam usługi tej kancelarii. Profesjonalizm, rzetelność i przyjazne podejście do klienta.",
   },
   {
-    name: "Jan Wiśniewski",
+    name: "Jan Kowalski",
     text: "Spisanie aktu przebiegło w bardzo miły i profesjonalny sposób. Wszystkie kwestie zostały wyjaśnione.",
   },
 ];
