@@ -18,16 +18,16 @@ const services = [
 
 const reviews = [
   {
-    name: "Marcin Radon",
-    text: "Świetna obsługa i pełen profesjonalizm! Pani Sylwia to osoba niezwykle kompetentna, rzetelna i uprzejma. Wszystkie formalności zostały załatwione sprawnie i w miłej atmosferze.",
+    name: "Adam Kowalski",
+    text: "Świetna obsługa i pełen profesjonalizm. Wersja demonstracyjna opinii klienta.",
   },
   {
-    name: "Małgorzata Drozda",
-    text: "Serdecznie polecam usługi tej kancelarii! Profesjonalizm, rzetelność i przyjazne podejście do klienta. Zarówno Pani Sylwia, jak i Pani Katarzyna wykazują się ogromnym zaangażowaniem i cierpliwością.",
+    name: "Anna Nowak",
+    text: "Serdecznie polecam usługi tej kancelarii. Profesjonalizm, rzetelność i przyjazne podejście do klienta.",
   },
   {
-    name: "Wojciech Lizun",
-    text: "Polecam Panią Katarzynę Klepacz, spisanie aktu przebiegło w bardzo miły a zarazem profesjonalny sposób. Wszystkie niezrozumiałe kwestie zostały na bieżąco wyjaśniane.",
+    name: "Jan Wiśniewski",
+    text: "Spisanie aktu przebiegło w bardzo miły i profesjonalny sposób. Wszystkie kwestie zostały wyjaśnione.",
   },
 ];
 
@@ -41,7 +41,7 @@ function Index() {
             <span className="grid h-10 w-10 place-items-center rounded-sm border border-gold/60 font-serif text-lg text-gold">N</span>
             <span className="hidden sm:block">
               <span className="block font-serif text-base leading-tight">Kancelaria Notarialna</span>
-              <span className="block text-xs tracking-[0.2em] uppercase text-gold/90">Sylwia Zrębiec-Skrodziuk</span>
+              <span className="block text-xs tracking-[0.2em] uppercase text-gold/90">Adam Kowalski</span>
             </span>
           </a>
           <nav className="hidden md:flex items-center gap-8 text-sm text-primary-foreground/85">
@@ -50,8 +50,8 @@ function Index() {
             <a href="#opinie" className="hover:text-gold transition-colors">Opinie</a>
             <a href="#kontakt" className="hover:text-gold transition-colors">Kontakt</a>
           </nav>
-          <a href="tel:+48178623329" className="inline-flex items-center gap-2 rounded-sm bg-gold px-4 py-2 text-sm font-medium text-primary hover:bg-gold-soft transition-colors">
-            <Phone className="h-4 w-4" /> 17 862 33 29
+          <a href="tel:+48000000000" className="inline-flex items-center gap-2 rounded-sm bg-gold px-4 py-2 text-sm font-medium text-primary hover:bg-gold-soft transition-colors">
+            <Phone className="h-4 w-4" /> 000 000 000
           </a>
         </div>
       </header>
@@ -71,14 +71,14 @@ function Index() {
         <div className="container-prose relative z-10 pb-20 pt-40 text-primary-foreground">
           <div className="max-w-2xl">
             <span className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.3em] text-gold">
-              <span className="h-px w-8 bg-gold" /> Notariusz · Rzeszów
+              <span className="h-px w-8 bg-gold" /> Notariusz · Miasto
             </span>
             <h1 className="mt-6 font-serif text-5xl leading-[1.05] sm:text-6xl md:text-7xl">
               Pewność i powaga<br />
               <span className="italic text-gold">aktu notarialnego.</span>
             </h1>
             <p className="mt-6 max-w-xl text-lg text-primary-foreground/80">
-              Kancelaria Notarialna Sylwii Zrębiec-Skrodziuk to miejsce, w którym formalności prawne realizujemy z najwyższą starannością, dyskrecją i ludzkim podejściem.
+              Kancelaria Notarialna Adama Kowalskiego to miejsce, w którym formalności prawne realizujemy z najwyższą starannością, dyskrecją i ludzkim podejściem.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <a href="#kontakt" className="inline-flex items-center gap-2 rounded-sm bg-gold px-6 py-3 text-sm font-medium text-primary hover:bg-gold-soft transition-colors">
@@ -90,9 +90,9 @@ function Index() {
             </div>
 
             <div className="mt-14 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm text-primary-foreground/70">
-              <span className="flex items-center gap-2"><MapPin className="h-4 w-4 text-gold" /> Fryderyka Szopena 19/4, Rzeszów</span>
+              <span className="flex items-center gap-2"><MapPin className="h-4 w-4 text-gold" /> ul. Przykładowa 1, Miasto</span>
               <span className="flex items-center gap-2"><Clock className="h-4 w-4 text-gold" /> Pn–Pt do 15:30</span>
-              <span className="flex items-center gap-2"><Star className="h-4 w-4 text-gold fill-gold" /> 4,5 · 11 opinii w Google</span>
+              <span className="flex items-center gap-2"><Star className="h-4 w-4 text-gold fill-gold" /> 4,5 · 11 opinii demonstracyjnych</span>
             </div>
           </div>
         </div>
@@ -206,21 +206,21 @@ function Index() {
                 <MapPin className="h-5 w-5 mt-1 text-gold shrink-0" />
                 <div>
                   <div className="text-xs uppercase tracking-widest text-gold/80">Adres</div>
-                  <div className="mt-1">ul. Fryderyka Szopena 19/4<br />35-055 Rzeszów</div>
+                  <div className="mt-1">ul. Przykładowa 1<br />00-000 Miasto</div>
                 </div>
               </li>
               <li className="flex items-start gap-4">
                 <Phone className="h-5 w-5 mt-1 text-gold shrink-0" />
                 <div>
                   <div className="text-xs uppercase tracking-widest text-gold/80">Telefon</div>
-                  <a href="tel:+48178623329" className="mt-1 block hover:text-gold transition-colors">17 862 33 29</a>
+                  <a href="tel:+48000000000" className="mt-1 block hover:text-gold transition-colors">000 000 000</a>
                 </div>
               </li>
               <li className="flex items-start gap-4">
                 <Mail className="h-5 w-5 mt-1 text-gold shrink-0" />
                 <div>
                   <div className="text-xs uppercase tracking-widest text-gold/80">Strona</div>
-                  <a href="https://notariuszrzeszow.com" className="mt-1 block hover:text-gold transition-colors">notariuszrzeszow.com</a>
+                  <a href="https://example.com" className="mt-1 block hover:text-gold transition-colors">example.com</a>
                 </div>
               </li>
               <li className="flex items-start gap-4">
@@ -234,9 +234,9 @@ function Index() {
           </div>
 
           <div className="relative">
-            <iframe
-              title="Mapa — Kancelaria Notarialna Rzeszów"
-              src="https://www.google.com/maps?q=Fryderyka+Szopena+19%2F4,+35-055+Rzesz%C3%B3w&output=embed"
+              <iframe
+              title="Mapa — Kancelaria Notarialna Demo"
+              src="https://www.google.com/maps?q=ul.+Przykladowa+1,+Warszawa&output=embed"
               className="h-full min-h-[420px] w-full rounded-sm border border-gold/20 grayscale"
               loading="lazy"
             />
@@ -247,8 +247,8 @@ function Index() {
       {/* Footer */}
       <footer className="bg-primary border-t border-primary-foreground/10 text-primary-foreground/70 py-10">
         <div className="container-prose flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm">
-          <div>© {new Date().getFullYear()} Kancelaria Notarialna Sylwia Zrębiec-Skrodziuk</div>
-          <div className="text-primary-foreground/50">ul. Szopena 19/4 · Rzeszów · 17 862 33 29</div>
+          <div>© {new Date().getFullYear()} Kancelaria Notarialna Demo</div>
+          <div className="text-primary-foreground/50">ul. Przykładowa 1 · Miasto · 000 000 000</div>
         </div>
       </footer>
     </div>

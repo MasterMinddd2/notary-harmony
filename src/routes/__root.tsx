@@ -72,16 +72,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Kancelaria Notarialna Sylwia Zrębiec-Skrodziuk · Notariusz Rzeszów" },
+      { title: "Kancelaria Notarialna Demo · Notariusz" },
       {
         name: "description",
         content:
-          "Kancelaria Notarialna w Rzeszowie. Akty notarialne, umowy, pełnomocnictwa, poświadczenia. Profesjonalna i rzetelna obsługa. ul. Szopena 19/4.",
+          "Kancelaria Notarialna Demo. Akty notarialne, umowy, pełnomocnictwa i poświadczenia. Profesjonalna i rzetelna obsługa.",
       },
-      { property: "og:title", content: "Kancelaria Notarialna Sylwia Zrębiec-Skrodziuk" },
+      { property: "og:title", content: "Kancelaria Notarialna Demo" },
       {
         property: "og:description",
-        content: "Notariusz w Rzeszowie · Szopena 19/4 · tel. 17 862 33 29",
+        content: "Notariusz · ul. Przykładowa 1 · tel. 000 000 000",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
